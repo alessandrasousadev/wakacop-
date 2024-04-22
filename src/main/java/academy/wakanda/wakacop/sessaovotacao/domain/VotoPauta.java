@@ -34,6 +34,7 @@ public class VotoPauta {
     }
 
     public UUID getIdSessao() {
+
         return this.sessaoVotacao.getId();
     }
 
