@@ -1,3 +1,7 @@
 server:
   servlet:
     context-path: /wakcop
+
+logging:
+  level:
+    academy.wakanda: ${LOG_LEVEL:DEBUG}
